@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans", serif;
+}
+
+.banner, .nav__login-btn, .nav__donate-btn, .nav__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  margin: 30px 0;
+}
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+.nav__link, .nav__login-btn, .nav__donate-btn {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: 0.3s ease-in-out;
+}
+.nav__link:hover, .nav__login-btn:hover, .nav__donate-btn:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+.nav__login-btn, .nav__donate-btn {
+  width: 125px;
+  height: 52px;
+}
+.nav__login-btn {
+  gap: 5px;
+  background-color: black;
+  color: white;
+}
+.nav__donate-btn {
+  border: 1px solid black;
+}
+
+.banner {
+  background-color: #0A1D55;
+  padding: 80px 60px;
+  color: white;
+  font-weight: 900px;
+}
+.banner__head {
+  font-size: 64px;
+  margin-bottom: 20px;
+  line-height: 64px;
+}
+.banner__sub-head {
+  font-size: 18px;
+}
+
+.datetime {
+  display: flex;
+  margin-top: 25px;
+  gap: 20px;
+  padding: 30px;
+}
+.datetime .right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.datetime__head {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.datetime__content {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+.datetime__day {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  min-width: 60px;
+}
+.datetime__value {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+.datetime__dayy {
+  line-height: 1cm;
+}
+.datetime__d {
+  line-height: 1;
+  font-size: 18px;
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.tile__section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 6em;
+  grid-row-gap: 1em;
+}
+.tile__tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tile__loadmore {
+  display: flex;
+  margin-top: 30px;
+  border-color: black;
+}/*# sourceMappingURL=styles.css.map */
