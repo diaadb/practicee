@@ -14,7 +14,6 @@
 
 body {
     font-size: 16px;
-    font-family: "Open Sans", serif;
 }
 
 %flex-center {
@@ -25,6 +24,7 @@ body {
 
 .nav {
     margin: 30px 0;
+    font-family: "Open Sans", serif;
 
     &__list {
         list-style: none;
@@ -71,13 +71,15 @@ body {
     background-color: #0A1D55;
     padding: 80px 60px;
     color: white;
-    font-weight: 900px;
+    font-family: "Roboto", serif;
     @extend %flex-center;
     
     &__head{
         font-size: 64px;
         margin-bottom: 20px;
         line-height: 64px;
+        
+        font-weight: 900;
         
     }
     &__sub-head{
@@ -86,35 +88,77 @@ body {
 }
 
 .datetime{
+
     display: flex;
-    margin-top: 25px;
-    gap: 20px;
-    padding: 30px;
+    gap: 60px;
+    padding: 134px;
+    margin-top: -80px;
+
+
+    &__IMG {
+        position: relative;
+    }
+    
+        &__imgg {
+        position: relative;
+        
+    }
+    
+        &__imgg img {
+        display: block;
+        width: 100%; 
+    }
+    
+        &__iconn {
+        position: absolute;
+        top: 10px; 
+        right: 10px;
+    }
+    
+    
     .right-side {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 520px;
+        font-weight: 700;
+        font-family: "Open Sans", serif;
+        font-size: 18px;
+        margin-top: -6px;
     }
     
     &__head {
         text-align:left;
-        font-size: 30px;
-        font-weight: bold;
+        font-size: 24px;
+        font-weight: 700;
         margin-bottom: 20px;
       }
     
-      &__content {
+    &__content {
         display: flex;
         justify-content:left;
         gap: 20px;
+        
+        
       }
-      &__day{
-        background: #f4f4f4;
+    &__day {
+        background:#f0f0f0;
         padding: 10px;
         border-radius: 5px;
         text-align: center;
         min-width: 60px;
-      }
+        border: 1px solid #bdb7b7;
+        position: relative; 
+    }
+    
+    &__small {
+        background: rgb(255, 255, 255);
+        width: 100%; 
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 1px 0; 
+    }
 
       &__value{
         display: block;
@@ -122,12 +166,16 @@ body {
         font-weight: bold;
         color: #000;
       }
-      &__dayy{
-        line-height:1cm;
+
+    
+      &__dayy,&__location{
+        line-height: 24px;
       }
       &__d{
-        line-height: 1;
-        font-size: 18px;
+        line-height: 24px;
+        font-size: 15px;
+        font-weight: 600;
+        width: 670px;
           }
     }
 
