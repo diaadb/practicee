@@ -171,7 +171,6 @@ footer, .tile__loadmore, .tile__tile, .banner, .nav__login-btn, .nav__donate-btn
   text-align: center;
 }
 .yellow__raffle {
-  background: url("/assets/raffle.svg") no-repeat center/cover;
   width: 601px;
   height: 90px;
   display: flex;
