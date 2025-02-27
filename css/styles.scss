@@ -348,6 +348,7 @@ body {
             gap: 78px;
           
             &__text {
+                margin-bottom: 34px;
               
               h1{
               font-family: Roboto;
@@ -402,7 +403,7 @@ body {
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
-                margin-top: 50px;
+                margin-top: 24px;
                 a {
                   color: #8DA1A1;
                   font-family: Open Sans;
@@ -443,5 +444,6 @@ body {
             width: 90%;
             margin-bottom: 20px;
             border: 1px solid #194E50;
+
         }
     }

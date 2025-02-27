@@ -291,6 +291,9 @@ body {
   width: 100%;
   gap: 78px;
 }
+.end__green__text {
+  margin-bottom: 34px;
+}
 .end__green__text h1 {
   font-family: Roboto;
   font-weight: 900;
@@ -338,7 +341,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-top: 50px;
+  margin-top: 24px;
 }
 .end__green__links a {
   color: #8DA1A1;
