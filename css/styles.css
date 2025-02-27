@@ -14,7 +14,7 @@ body {
   font-size: 16px;
 }
 
-footer, .yellow__raffle, .tile__but, .tile__tile, .tile, .banner, .nav__login-btn, .nav__donate-btn, .nav__item {
+.yellow__raffle, .tile__but, .tile__tile, .tile, .banner, .nav__login-btn, .nav__donate-btn, .nav__item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -270,12 +270,20 @@ footer, .yellow__raffle, .tile__but, .tile__tile, .tile, .banner, .nav__login-bt
   height: 961px;
 }
 
-footer {
+.footer {
   background-color: #0B2A2B;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   padding: 20px;
   font-size: 12px;
   font-weight: 600;
   font-family: "Open Sans", serif;
   width: 100%;
   color: white;
+}
+.footer__line {
+  width: 90%;
+  margin-bottom: 20px;
+  border: 1px solid #194E50;
 }/*# sourceMappingURL=styles.css.map */
