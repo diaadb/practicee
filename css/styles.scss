@@ -10,6 +10,11 @@
 .container {
     max-width: 1296px;
     margin: 0 auto;
+    @media screen and (max-width:810px){
+        display: flex;
+        flex-direction: column;  
+    }
+
 }
 
 body {
@@ -31,6 +36,10 @@ body {
         display: flex;
         justify-content: end;
         gap: 20px;
+        @media screen and (max-width:810px){
+            display: flex;
+            flex-direction: column; 
+        }
     }
 
     &__item {
@@ -73,6 +82,12 @@ body {
     color: white;
     font-family: "Roboto", serif;
     @extend %flex-center;
+    @media screen and (max-width:810px){
+        display: flex;
+        flex-direction: column;
+        margin: 0 59px;
+        
+    }
     
     &__head{
         font-size: 64px;
@@ -149,6 +164,7 @@ body {
         min-width: 60px;
         border: 1px solid #bdb7b7;
         position: relative; 
+
     }
     
     &__small {
@@ -171,12 +187,19 @@ body {
     
       &__dayy,&__location{
         line-height: 24px;
+
+        @media screen and (max-width:810px){
+            margin-top: 20px; }
       }
       &__d{
         line-height: 24px;
         font-size: 15px;
         font-weight: 600;
         width: 670px;
+        @media screen and (max-width:810px){
+            line-height: 30px;
+            width: 520px; }
+        
           }
     }
 
@@ -193,6 +216,11 @@ body {
             padding-left: 91px;
             margin-top: -97px;
             position: relative;
+
+            @media screen and (max-width:810px){
+                grid-template-columns: repeat(1,1fr);
+                grid-template-rows: repeat(12,1fr); 
+            margin-left: -78px; }
 
         }
         &__tile{
@@ -233,6 +261,10 @@ body {
             border-bottom: 5px solid #000;
             margin-top: 100px;
             margin-left: 95px;
+
+            @media screen and (max-width:810px){
+                margin-left: -2px;
+                margin-top: 20px; }
         }
     }
     .yellow {     
@@ -261,12 +293,26 @@ body {
             @extend %flex-center;
             margin-top: 20px;
             transform: rotate(-1deg);
+
+            @media screen and (max-width:810px){
+                width: 596px;
+                height: 64px;
+                transform: rotate(-8deg);
+                margin-top: 41px;
+            }
         }
         
         &__raffle p {
             font-size: 50px;
             color: black;
             transform: rotate(-5deg);
+
+            @media screen and (max-width:810px){
+                width: 596px;
+                height: 35px;
+                transform: rotate(-1deg);
+                font-size: 35px;
+                margin-left: 66px; }
         }
         
 
@@ -276,6 +322,13 @@ body {
             margin-left: 139px;
             gap: 164px;
             margin-bottom: 88px;
+
+
+            @media screen and (max-width:810px){
+                margin-top: 26px;
+               flex-direction: column;
+               margin-left: 43px;
+            }
         }
 
         &__content{
@@ -285,18 +338,36 @@ body {
         &__description {
             font-size: 18px;
             font-size: 34px;
+
+
+            @media screen and (max-width:810px){
+                margin-top: 26px;
+                font-size: 23px;
+                text-align: justify;
+            }
         }
     
         &__announcement {
-            margin-top: 10px;
+            margin-top: 4px;
             color: #F43C5C;
             font-size: 34px;
+            @media screen and (max-width:810px){
+                margin-top: 26px;
+                font-size: 23px;
+                text-align: justify;
+                width: 629px;
+            }
             
         }
     
         &__duck {
             width: 370px;
             height: 370px;
+
+            @media screen and (max-width:810px){
+                margin-top: -167px;
+    
+            }
         }
     
        
@@ -319,6 +390,15 @@ body {
             border-style: solid;
             border-color: #1C1C1D;
             box-shadow: 0px 4px 0px 0px #202020;
+
+
+
+
+            @media screen and (max-width:810px){
+                margin-left: 223px;
+                width: 367px;
+                font-size: 27px;
+            }
         }
 
     .end{
