@@ -193,6 +193,7 @@ body {
   border: 1px solid black;
   border-bottom: 5px solid #000;
   margin-top: 100px;
+  margin-left: 95px;
 }
 
 .yellow {
@@ -237,12 +238,12 @@ body {
 }
 .yellow__description {
   font-size: 18px;
-  font-size: 24px;
+  font-size: 34px;
 }
 .yellow__announcement {
   margin-top: 10px;
   color: #F43C5C;
-  font-size: 24px;
+  font-size: 34px;
 }
 .yellow__duck {
   width: 370px;
@@ -251,7 +252,7 @@ body {
 
 .comm {
   margin-top: -51px;
-  margin-left: 400px;
+  margin-left: 648px;
   font-weight: 800;
   font-family: "Open Sans", serif;
   background-color: #F13E5D;
@@ -289,7 +290,7 @@ body {
           clip-path: polygon(0 12%, 47% 0, 100% 13%, 100% 100%, 0 100%);
   margin: 0;
   width: 100%;
-  gap: 78px;
+  gap: 511px;
 }
 .end__green__text {
   margin-bottom: 34px;
