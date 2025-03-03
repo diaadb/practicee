@@ -430,7 +430,7 @@ body {
           
             &__text {
                 margin-bottom: 34px;
-              
+
               h1{
               font-family: Roboto;
               font-weight: 900;
@@ -440,8 +440,20 @@ body {
               
               color: #FFFFFF;
               max-width: 412px;
+
+              @media screen and (max-width:810px){
+                font-size:37px;
+            }
+
+              
            
               }
+
+              @media screen and (max-width:810px){
+                margin-left: 759px;
+                
+            }
+          
             }
         
             &__input {
@@ -451,6 +463,12 @@ body {
               margin-top: 50px;
               border: 3px solid #8DA1A1;
               border-radius: 3px;
+
+              @media screen and (max-width:810px){
+                 transform: scale(0.7);
+                 margin-left: -97px;
+                
+            }
               input {
                 font-family: Open Sans;
                 font-weight: 700;
