@@ -406,6 +406,7 @@ body {
 @media screen and (max-width: 810px) {
   .end__green__text {
     margin-left: 759px;
+    margin-top: -117px;
   }
 }
 .end__green__input {
@@ -420,6 +421,7 @@ body {
   .end__green__input {
     transform: scale(0.7);
     margin-left: -97px;
+    margin-top: 3px;
   }
 }
 .end__green__input input {
